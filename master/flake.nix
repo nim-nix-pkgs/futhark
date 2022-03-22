@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-futhark-master.flake = false;
+  inputs.src-futhark-master.ref   = "refs/heads/master";
   inputs.src-futhark-master.owner = "PMunch";
-  inputs.src-futhark-master.ref   = "master";
   inputs.src-futhark-master.repo  = "futhark";
   inputs.src-futhark-master.type  = "github";
   
