@@ -11,6 +11,7 @@
   inputs.src-futhark-master.ref   = "refs/heads/master";
   inputs.src-futhark-master.owner = "PMunch";
   inputs.src-futhark-master.repo  = "futhark";
+  inputs.src-futhark-master.dir   = "";
   inputs.src-futhark-master.type  = "github";
   
   inputs."termstyle".owner = "nim-nix-pkgs";

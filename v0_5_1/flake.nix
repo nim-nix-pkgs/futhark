@@ -11,6 +11,7 @@
   inputs.src-futhark-v0_5_1.ref   = "refs/tags/v0.5.1";
   inputs.src-futhark-v0_5_1.owner = "PMunch";
   inputs.src-futhark-v0_5_1.repo  = "futhark";
+  inputs.src-futhark-v0_5_1.dir   = "";
   inputs.src-futhark-v0_5_1.type  = "github";
   
   inputs."termstyle".owner = "nim-nix-pkgs";
