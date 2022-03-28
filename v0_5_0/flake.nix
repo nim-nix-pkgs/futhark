@@ -11,8 +11,15 @@
   inputs.src-futhark-v0_5_0.ref   = "refs/tags/v0.5.0";
   inputs.src-futhark-v0_5_0.owner = "PMunch";
   inputs.src-futhark-v0_5_0.repo  = "futhark";
-  inputs.src-futhark-v0_5_0.dir   = "";
   inputs.src-futhark-v0_5_0.type  = "github";
+  
+  inputs."github.com/pmunch/libclang-nim".owner = "nim-nix-pkgs";
+  inputs."github.com/pmunch/libclang-nim".ref   = "master";
+  inputs."github.com/pmunch/libclang-nim".repo  = "github.com/pmunch/libclang-nim";
+  inputs."github.com/pmunch/libclang-nim".dir   = "";
+  inputs."github.com/pmunch/libclang-nim".type  = "github";
+  inputs."github.com/pmunch/libclang-nim".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/pmunch/libclang-nim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."termstyle".owner = "nim-nix-pkgs";
   inputs."termstyle".ref   = "master";
