@@ -13,13 +13,13 @@
   inputs.src-futhark-v0_4_0.repo  = "futhark";
   inputs.src-futhark-v0_4_0.type  = "github";
   
-  inputs."github.com/pmunch/libclang-nim".owner = "nim-nix-pkgs";
-  inputs."github.com/pmunch/libclang-nim".ref   = "master";
-  inputs."github.com/pmunch/libclang-nim".repo  = "github.com/pmunch/libclang-nim";
-  inputs."github.com/pmunch/libclang-nim".dir   = "";
-  inputs."github.com/pmunch/libclang-nim".type  = "github";
-  inputs."github.com/pmunch/libclang-nim".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/pmunch/libclang-nim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-pmunch-libclang".owner = "nim-nix-pkgs";
+  inputs."github-pmunch-libclang".ref   = "master";
+  inputs."github-pmunch-libclang".repo  = "github-pmunch-libclang";
+  inputs."github-pmunch-libclang".dir   = "v0_59";
+  inputs."github-pmunch-libclang".type  = "github";
+  inputs."github-pmunch-libclang".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-pmunch-libclang".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."termstyle".owner = "nim-nix-pkgs";
   inputs."termstyle".ref   = "master";
